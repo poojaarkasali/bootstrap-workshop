@@ -14,7 +14,7 @@
 <body>
 
 
-        <div class="container-fluid">
+        <div class="container">
             <!-- navigation bar-->
             <div class="navabar navbar-default" role="navigation">
                 <div class="navbar-header">
@@ -40,9 +40,32 @@
             <form>
                 <div class="row">
 
-                    <h1 class="col-lg-12">Create Account</h1>
-
                     <div class="col-lg-6">
+
+
+                        <h2>Create Account <small>or</small> <span><button type="button" class="btn btn-link btn-lg" data-toggle="modal" data-target="#myModal">Read more</button></span></h2>
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog">
+
+
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Read more? Seriously?</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>I could have killed 'em all,I could you.In town you're the law ,out here its me.Don't push it.Dont push it or I will give you a war you won't believe.Let it go.Let it go. <br>-Rambo.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
                         <div class="col-lg-6 form-group">
                             <label>First name</label>
                             <input type="email" class="form-control" id="email" placeholder="First name">
@@ -71,7 +94,7 @@
                     </div>
 
                     <div class="col-lg-6">
-                        <img src="http://wallpoper.com/images/00/25/87/95/flowers-cats_00258795.jpg" height="400" width="900"/>
+                        <img src="http://www.hd-wallpapersdownload.com/script/bulk-upload/desktop-kittens-and-cats-pics.jpg" style="height:400px;width:800px;" class="img-responsive"/>
                     </div>
 
                 </div>
@@ -80,12 +103,20 @@
 
             <!-- pictures-->
             <br><br><br>
-           <div class="row">
-                <div class="col-sm-6 col-lg-3 "><img src="http://placekitten.com/400/300"/></div>
-                <div class="col-sm-6 col-lg-3 "><img src="http://placekitten.com/400/300"/></div>
-                <div class="col-sm-6 col-lg-3 "><img src="http://placekitten.com/400/300"/></div>
-                <div class="col-sm-6 col-lg-3 "><img src="http://placekitten.com/400/300"/></div>
+          <div class="row">
+                <div class="col-sm-6 col-lg-3 img-responsive"><img src="images/1.jpg" style="height: 150px;width: 250px;"/></div>
+                <div class="col-sm-6 col-lg-3 img-responsive"><img src="images/2.jpg" style="height: 150px;width: 250px;"/></div>
+                <div class="col-sm-6 col-lg-3 img-responsive"><img src="images/3.jpg" style="height: 150px;width: 250px;"/></div>
+                <div class="col-sm-6 col-lg-3 img-responsive"><img src="images/4.jpg" style="height: 150px;width: 250px;"/></div>
             </div>
+
+            <!--<div class="container">
+                <div class="row">
+                    <img src="images/1-1.png" class="img-responsive visible-lg "/>
+                    <img src="images/2-2.png" class="img-responsive visible-sm visible-md"/>
+                    <img src="images/2-3.png" class="img-responsive visible-xs"/>
+                </div>
+            </div>-->
 
         </div>
 
